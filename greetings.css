@@ -40,3 +40,9 @@ em.e {
 em.f {
     color: rgb(240, 164, 164);
 }
+
+@media screen and (max-width:600px) {
+    body {
+        width: 90%;
+    }
+}
