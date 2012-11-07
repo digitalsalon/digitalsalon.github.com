@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(46, 22, 0);
+    color: rgb(241, 234, 194);
+    font-family: 'Average Sans', sans-serif;
+    max-width: 790px;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 104%;
+}
+h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    text-align: center;
+}
+a {
+    color: rgb(241, 234, 194);
+    border-bottom: 1px solid;
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 1px dashed;
+}
+em {
+    font-style: normal;
+}
+em.a {
+    color: rgb(235, 180, 148);
+}
+em.b {
+    color: rgb(205, 194, 241);
+}
+em.c {
+    color: rgb(154, 241, 165);
+}
+em.d {
+    color: rgb(163, 250, 250);
+}
+em.e {
+    color: rgb(255, 239, 124);
+}
+em.f {
+    color: rgb(240, 164, 164);
+}
+
+@media screen and (max-width:600px) {
+    body {
+        width: 90%;
+    }
+}
