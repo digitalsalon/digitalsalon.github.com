@@ -45,4 +45,9 @@ em.f {
     body {
         width: 90%;
     }
+	#dslogo {
+		width: 100%;
+		height: auto;
+	}
 }
+
